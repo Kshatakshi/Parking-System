@@ -1,12 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int main() {
   string cmd;
   vector<pair<string, int>> data;
   int nearest=0, found=0;
   int n, age, slot;
   string regNo;
+  cout<<"Please type your inputs here"<<endl;
   while(1){
       found=0;
       cin>>cmd;
@@ -79,6 +81,7 @@ int main() {
             cout<<endl;
       }else{//for a not valid comment
            cout<<"Not a valid command"<<endl;
+
       }
   }
 
